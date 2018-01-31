@@ -13,8 +13,7 @@
     "watch": "npm-run-all --parallel watch:*",
     "build": "neutrino build",
     "start": "neutrino start",
-    "heroku-postbuild": "npm run build && npm run flush-cdn",
-    "flush-cdn": "node postinstall.js"
+    "heroku-postbuild": "npm run build"
   },
   "author": "Harald Kirschner <npm@digitarald.com> (http://digitarald.de/)",
   "license": "MPL-2.0",
