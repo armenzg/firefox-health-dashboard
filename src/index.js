@@ -15,3 +15,5 @@ if (process.env.NODE_ENV !== 'test') {
   });
   server.listen(process.env.PORT || 3000);
 }
+
+export default app;
